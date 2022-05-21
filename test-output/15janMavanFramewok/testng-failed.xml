@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [15janMavanFramewok]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="buy and sell shear(failed)">
+    <classes>
+      <class name="testclasses.DashBoardTest">
+        <methods>
+          <include name="buyshearvalidation"/>
+          <include name="initBrowser"/>
+          <include name="objectcreation"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testclasses.DashBoardTest -->
+    </classes>
+  </test> <!-- buy and sell shear(failed) -->
+</suite> <!-- Failed suite [15janMavanFramewok] -->
